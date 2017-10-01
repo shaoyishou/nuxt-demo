@@ -1,6 +1,17 @@
 module.exports = {
   srcDir: 'src/',
 
+  css: [{
+    src: '~assets/style/reset.less', // 全局引入reset.less
+    lang: 'less'
+  }],
+
+  cache: true,
+
+  dev: [
+
+  ],
+
   /*
   ** Headers of the page
   */
